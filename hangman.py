@@ -1,14 +1,14 @@
 import random
-from words import fruits
+from words import *
+from stages import stages
+from ascii_art import logo, looser_message
+import feedbacks
+
+logo()
 message = ""
 word_list = fruits
-#THIS IS A LIST OF CONGRATS AND ENCOURAGEMENTS
-final_congrats = ["Well done", "You win", "Wow Bravissiiiimo", "Yeah! You guessed it", "You did it, champion"]
-congrats = ["Correct", "Take my five!", "Word boss!", "Great"]
-congrat = ""
-encouragements = ["Nooo!, try again", "This letter is not in, sorry", "No, never type it again",
-                  "Try gain boss"]
 #Randomly choose a word from the word_list and assign it to a variable called chosen_word.
+congrat = ""
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 print(f"This is a {word_length} letters word")  #for the test
@@ -24,7 +24,7 @@ word_to_display = ""
 for i in range(word_length):
     display.append('_')
     #now every element of display are _ display look like ['_', '_',...., '_']
-#Loop and ask the player to guess the correct letter until he or she find the correct word; will use while loop
+#Loop and ask the player to guess the correct letter until he or she finds the correct word; will use while loop
 end_of_game = False
 while not end_of_game:
     word_to_display = ""  #reinitialize word_to_display
@@ -38,7 +38,7 @@ while not end_of_game:
         for i in range(word_length):
             if guess == chosen_word[i]:
                 display[i] = guess
-                message = random.choice(congrats)
+                message = random.choice(feedbacks.congrats)
             word_to_display = ''.join(display)  # to display it more like a word and not a table
         #check now if the game can end if all the letter of display match with the chosen word
         end_of_game = (word_to_display == chosen_word)
@@ -47,7 +47,7 @@ while not end_of_game:
         if guess not in chosen_word:
             message = ""
             lives -= 1
-            message = random.choice(encouragements)
+            message = random.choice(feedbacks.encouragements)
     else:
         end_of_game = True
     print(message)
@@ -55,7 +55,7 @@ while not end_of_game:
     #print the ASCII art
     print(stages[lives])
 #out of while now
-final_congratulation = random.choice(final_congrats)
+final_congratulation = random.choice(feedbacks.final_congrats)
 if lives <= 0:
     print(looser_message)
 else:

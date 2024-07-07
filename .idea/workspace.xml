@@ -4,36 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ad077a-03d1-4758-b97f-d6a3a43a3bc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Password Generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Database-Medailles/.idea/Database-Medailles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Database-Medailles/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Database-Medailles/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Database-Medailles/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Database-Medailles/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Database-Medailles/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Database-Medailles/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/Database-Medailles/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmi calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leap year.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/love calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiplication table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treaser hidder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treasure island game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voyels count.py" afterDir="false" />
+    <list default="true" id="59ad077a-03d1-4758-b97f-d6a3a43a3bc7" name="Changes" comment="version stable">
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/Level up projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/articles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/ascii_art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auction/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auction/algo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auction/art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auction/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_jack_game/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_jack_game/art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_jack_game/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/operators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prime number checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ascii_art.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/ascii_art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/feedbacks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stages.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/stages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voyels count.py" beforeDir="false" afterPath="$PROJECT_DIR$/letters_counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/words.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/words.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,27 +75,95 @@
     &quot;Python.RPS.executor&quot;: &quot;Run&quot;,
     &quot;Python.bmi calculator.executor&quot;: &quot;Run&quot;,
     &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cipher.executor&quot;: &quot;Run&quot;,
     &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
     &quot;Python.hello.executor&quot;: &quot;Run&quot;,
     &quot;Python.leap year.executor&quot;: &quot;Run&quot;,
     &quot;Python.love calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.shop manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.treaser hidder.executor&quot;: &quot;Run&quot;,
     &quot;Python.treasure island game.executor&quot;: &quot;Run&quot;,
     &quot;Python.voyels count.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jacquel Penah/PycharmProjects/Course&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jacquel Penah/PycharmProjects/Course/black_jack_game/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;repository&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jacquel Penah\PycharmProjects\Course\calculator" />
+      <recent name="C:\Users\Jacquel Penah\PycharmProjects\Course\Cipher Caesar Code" />
+      <recent name="C:\Users\Jacquel Penah\PycharmProjects\Course\hangman" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
         <option value="PythonConfigurationType" />
       </set>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (Database-Medailles)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Course" />
+      <option name="ENV_FILES" value="$PROJECT_DIR$//black_jack_game/main.py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONIOENCODING" value="utf-8" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/black_jack_game/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -107,6 +181,79 @@
       <option name="presentableId" value="Default" />
       <updated>1717575463894</updated>
     </task>
+    <task id="LOCAL-00001" summary="Hangman Game first commit&#10;The game can check if a given letter is in the word but can not handla lives and displaying ascii yet">
+      <option name="closed" value="true" />
+      <created>1720105998550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105998550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hangman Game first commit">
+      <option name="closed" value="true" />
+      <created>1720135496372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720135496373</updated>
+    </task>
+    <task id="LOCAL-00003" summary="To handle the differents stages">
+      <option name="closed" value="true" />
+      <created>1720135919867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720135919867</updated>
+    </task>
+    <task id="LOCAL-00004" summary="To handle the differents arrays of words">
+      <option name="closed" value="true" />
+      <created>1720135942589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720135942589</updated>
+    </task>
+    <task id="LOCAL-00005" summary="To handle the differents ascii art">
+      <option name="closed" value="true" />
+      <created>1720136388935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720136388935</updated>
+    </task>
+    <task id="LOCAL-00006" summary="used words as module and import fruits for the test">
+      <option name="closed" value="true" />
+      <created>1720137940821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720137940821</updated>
+    </task>
+    <task id="LOCAL-00007" summary="imported all the module">
+      <option name="closed" value="true" />
+      <created>1720139980963</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720139980963</updated>
+    </task>
+    <task id="LOCAL-00008" summary="for the feedbacks">
+      <option name="closed" value="true" />
+      <created>1720140027920</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720140027920</updated>
+    </task>
+    <task id="LOCAL-00009" summary="version stable">
+      <option name="closed" value="true" />
+      <created>1720395868711</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720395868711</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +266,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hangman Game first commit&#10;The game can check if a given letter is in the word but can not handla lives and displaying ascii yet" />
+    <MESSAGE value="Hangman Game first commit" />
+    <MESSAGE value="To handle the differents stages" />
+    <MESSAGE value="To handle the differents arrays of words" />
+    <MESSAGE value="To handle the differents ascii art" />
+    <MESSAGE value="used words as module and import fruits for the test" />
+    <MESSAGE value="imported all the module" />
+    <MESSAGE value="for the feedbacks" />
+    <MESSAGE value="version stable" />
+    <option name="LAST_COMMIT_MESSAGE" value="version stable" />
   </component>
 </project>

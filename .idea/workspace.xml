@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ad077a-03d1-4758-b97f-d6a3a43a3bc7" name="Changes" comment="added a way to change Ace value to 1 if score exceed 21. black jack rule">
+    <list default="true" id="59ad077a-03d1-4758-b97f-d6a3a43a3bc7" name="Changes" comment="modified the 'cards_and_score' and compare functions for more UI">
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/Level up projects.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -17,7 +17,6 @@
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/articles.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/ascii_art.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/black_jack_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_jack_game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722003622904</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modified the 'cards_and_score' and compare functions for more UI">
+      <option name="closed" value="true" />
+      <created>1722004031386</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722004031386</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +273,7 @@
     <MESSAGE value="version stable" />
     <MESSAGE value="stable version for all" />
     <MESSAGE value="added a way to change Ace value to 1 if score exceed 21. black jack rule" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a way to change Ace value to 1 if score exceed 21. black jack rule" />
+    <MESSAGE value="modified the 'cards_and_score' and compare functions for more UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the 'cards_and_score' and compare functions for more UI" />
   </component>
 </project>

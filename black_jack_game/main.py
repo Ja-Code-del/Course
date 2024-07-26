@@ -64,6 +64,7 @@ def compare(user, computer):
 
 
 def cards_and_score(user, computer):
+    """print the cards and the score of each hand passed into argument"""
     print("------------------------------------------------------------------------")
     print(f"Your cards : {user}")
     print(f"Your score is : {calculate_scores(user)}")

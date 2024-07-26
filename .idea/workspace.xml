@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ad077a-03d1-4758-b97f-d6a3a43a3bc7" name="Changes" comment="version stable">
+    <list default="true" id="59ad077a-03d1-4758-b97f-d6a3a43a3bc7" name="Changes" comment="added a way to change Ace value to 1 if score exceed 21. black jack rule">
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/Level up projects.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -17,29 +17,8 @@
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/articles.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/ascii_art.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Projects/Level up projects/the_good_price/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction/algo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction/art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auction/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/black_jack_game/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/black_jack_game/art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/black_jack_game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prime number checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ascii_art.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/ascii_art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/feedbacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stages.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/stages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voyels count.py" beforeDir="false" afterPath="$PROJECT_DIR$/letters_counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/words.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/black_jack_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_jack_game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720395868711</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added a way to change Ace value to 1 if score exceed 21. black jack rule">
+      <option name="closed" value="true" />
+      <created>1722003622904</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722003622904</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +264,8 @@
     <MESSAGE value="imported all the module" />
     <MESSAGE value="for the feedbacks" />
     <MESSAGE value="version stable" />
-    <option name="LAST_COMMIT_MESSAGE" value="version stable" />
+    <MESSAGE value="stable version for all" />
+    <MESSAGE value="added a way to change Ace value to 1 if score exceed 21. black jack rule" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a way to change Ace value to 1 if score exceed 21. black jack rule" />
   </component>
 </project>

@@ -3,6 +3,7 @@ import emoji
 from art import logo
 from os import system, name
 from time import sleep
+from colorama import Fore, Back
 
 
 #FUNCTIONS
@@ -81,7 +82,9 @@ while not end_game:
     user_cards = []
     computer_cards = []
     end_of_session = False
-    choice_to_play = input("Do you want to play to Black Jack with me? \nType 'y' for yes or 'n' for no")
+    #print logo with color
+    print(Back.LIGHTMAGENTA_EX + Fore.BLACK + logo)
+    choice_to_play = input("Do you want to play to Black Jack with me? \nType 'y' for yes or 'n' for no\n").lower()
     if choice_to_play == 'y':
         for i in range(2):
             user_cards.append(deal_card(cards))
@@ -97,7 +100,7 @@ while not end_game:
             else:
                 cards_and_score(user_cards, computer_cards)
                 # Hint 10: If the game has not ended, ask the user if they want to draw another card.
-                user_choice = input("Do you want to draw another card? Type 'y' for yes or 'n' for no").lower()
+                user_choice = input("Do you want to draw another card? Type 'y' for yes or 'n' for no\n").lower()
                 # If yes,deal_card() function to add another card to the user_cards List.
                 # If no, then the game has ended.
                 # Hint 11: The score will need to be rechecked with every
@@ -123,7 +126,7 @@ while not end_game:
         print("Ok fine")
 
         # Hint 14: Ask the user if they want to restart the game.
-    choice_to_restart = input("Do you want to restart the game? Type 'y' for yes and 'n' for no")
+    choice_to_restart = input("Do you want to restart the game? Type 'y' for yes and 'n' for no\n").lower()
     if choice_to_restart == 'y':
         clear()
         print(logo)

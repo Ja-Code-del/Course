@@ -1,5 +1,5 @@
 import random
-from words import *
+from data import *
 from stages import stages
 from hangman.ascii_art import logo, looser_message
 import feedbacks
@@ -11,21 +11,27 @@ def alert_box(something_to_print):
 
 logo()
 message = ""
-#Menu and choice of the theme
-theme = input("What theme do you prefer?\nType fruits, maths, ecole, informatique, music, sport, cuisine, automobile ")
-themes_name = ["fruits", "maths", "ecole", "informatique", "music", "sport", "cuisine", "automobile"]
-themes = [fruits, maths, ecole, informatique, music, sport, cuisine, automobile]
+
+##Menu and choice of the theme
+theme = input("What theme do you prefer?\nType fruits, musique, animaux")
+themes_name = ["fruits", "music", "animaux"]
+themes = [fruits, musique, animaux]
 themes_dict = dict(zip(themes_name, themes))
 word_list = themes_dict.get(theme, [])
+
+# def play_game(word_list):
 #Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 congrat = ""
-chosen_word = random.choice(word_list)
+chosen_word = word_list[random.randint(len(word_list) - 1)]
+chosen_word_hint = c
 word_length = len(chosen_word)
-print(f"This is a {word_length} letters word")  #for the test
+
+#for the test
+print(f"This is a {word_length} letters word")
 #Create variables called 'lives' & 'score' to keep track of the number of lives left and the score
 #Set 'lives' to equal 6.
-lives = 6
-score = 6 - lives
+lives = 10
+score = 10 - lives
 #Create an empty List called display.
 #For each letter in the chosen_word, add a "_" to 'display'.
 display = []
@@ -37,7 +43,8 @@ for i in range(word_length):
 #Loop and ask the player to guess the correct letter until he or she finds the correct word; will use while loop
 end_of_game = False
 while not end_of_game:
-    word_to_display = ""  #reinitialize word_to_display
+    # reinitialize word_to_display
+    word_to_display = ""
     message = ""
     if lives > 0:
         #Ask the user to guess a letter and assign their answer to a variable called guess. Make guess

@@ -23,6 +23,11 @@ def calculate_scores(deck):
     if deck == [11, 10] or deck == [10, 11]:
         print("Black Jack")
         return 0
+    else:
+        if 11 in deck and score > 21:
+            deck.remove(11)
+            deck.append(1)
+            score = sum(deck)
     return score
 
 

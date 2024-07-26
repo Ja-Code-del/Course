@@ -36,27 +36,35 @@ def compare(user, computer):
     # If the computer and user both have the same score, then it's a draw.
     if calculate_scores(user) == calculate_scores(computer):
         print("DRAW")
+        print("------------------------------------------------------------------------")
     # If the computer has a blackjack (0), then the user loses.
     elif calculate_scores(computer) == 0:
         print("YOU LOSE")
+        print("------------------------------------------------------------------------")
     # If the user has a blackjack (0), then the user wins.
     elif calculate_scores(user) == 0:
         print("YOU WIN :smile: ")
+        print("------------------------------------------------------------------------")
     # If the user_score is over 21, then the user loses.
     elif calculate_scores(user) > 21:
         print("YOU LOSE :thumbs_down: ")
+        print("------------------------------------------------------------------------")
     # If the computer_score is over 21, then the computer loses.
     elif calculate_scores(computer) > 21:
         print("YOU WIN :smile: ")
+        print("------------------------------------------------------------------------")
     # If none of the above, then the player with the highest score wins.
     else:
         if calculate_scores(user) > calculate_scores(computer):
             print("YOU WIN :smile: ")
+            print("------------------------------------------------------------------------")
         else:
             print("DEALER WINS")
+            print("------------------------------------------------------------------------")
 
 
 def cards_and_score(user, computer):
+    print("------------------------------------------------------------------------")
     print(f"Your cards : {user}")
     print(f"Your score is : {calculate_scores(user)}")
 

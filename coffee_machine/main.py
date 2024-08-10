@@ -36,14 +36,20 @@ in_service = True
 profit = 0
 start = True
 
+
+
+def report():
+    print(f"These are the available resources : ")
+    for ingredient, value in resources.items():
+        print(f"{ingredient} : {value}")
+
+ 
 while start:
     choice_of_user = input("What would you like? (espresso/latte/cappuccino): "
                            "\nType 'report' to see the resources\nType 'Off' to switch the machine off").lower()
 
     if choice_of_user == "report":
-        print(f"These are the available resources : ")
-        for ingredient, value in resources.items():
-            print(f"{ingredient} : {value}")
+        report()
     elif choice_of_user == "off":
         in_service = False
         start = False

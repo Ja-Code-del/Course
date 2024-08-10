@@ -26,8 +26,8 @@ def play_game(word_list):
     word_length = len(chosen_word_name)
 
     #for the test
-    print(f"This is a {word_length} letters word")
-    print(f"Here is an hint : {chosen_word_hint}")
+    print(f"C'est un mot de {word_length} lettres")
+    print(f"Voici un indice qui pourrait t'aider : {chosen_word_hint}")
     #Create variables called 'lives' & 'score' to keep track of the number of lives left and the score
     #Set 'lives' to equal 6.
     lives = 6
@@ -48,10 +48,10 @@ def play_game(word_list):
         if lives > 0:
             #Ask the user to guess a letter and assign their answer to a variable called guess. Make guess
             #  lowercase.
-            guess = input("Guess a letter into the chosen word ").lower()
+            guess = input("Devine une lettre dans ce mot ").lower()
             #if the player has already guessed the word
             if guess in display:
-                print(f"You have already guessed {guess}")
+                print(f"Tu as déjà déviné : {guess}")
             #Loop through each position in the chosen_data;
             #If the letter at that position matches 'guess' then reveal that letter in the display at that position.
             for i in range(word_length):
@@ -76,7 +76,7 @@ def play_game(word_list):
     final_congratulation = random.choice(feedbacks.final_congrats)
     if lives <= 0:
         print(looser_message)
-        print(f"The word was {chosen_word_name}")
+        print(f"Le mot à deviner était: {chosen_word_name}")
     else:
         alert_box(final_congratulation)
-        alert_box(f"your score is : {6 - (6 - lives)}")
+        alert_box(f"Ton score est de : {(6 - (6 - lives))*100/6}%")

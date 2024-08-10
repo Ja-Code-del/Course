@@ -1,9 +1,9 @@
 import random
-import emoji
+#import emoji
 from art import logo
 from os import system, name
 from time import sleep
-from colorama import Fore, Back
+#from colorama import Fore, Back
 
 
 #FUNCTIONS
@@ -83,7 +83,7 @@ while not end_game:
     computer_cards = []
     end_of_session = False
     #print logo with color
-    print(Back.LIGHTMAGENTA_EX + Fore.BLACK + logo)
+    #print(Back.LIGHTMAGENTA_EX + Fore.BLACK + logo)
     choice_to_play = input("Do you want to play to Black Jack with me? \nType 'y' for yes or 'n' for no\n").lower()
     if choice_to_play == 'y':
         for i in range(2):

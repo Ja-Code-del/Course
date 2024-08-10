@@ -22,8 +22,6 @@ def prime_checker(number):
 
 
 # Your code above this line 👆
-n = int(input())  # Check this number
+n = int(input("Please give a number to check\n"))  # Check this number
 prime_checker(number=n)
 
-n = int(input())  # Check this number
-prime_checker(number=n)

@@ -1,5 +1,5 @@
 from calculator import operators
-from data import MENU,resources
+from data import MENU, resources
 
 
 def report():
@@ -22,7 +22,7 @@ def fund_calculator(q, d, n, p):
     return fund
 
 
-def serving_coffee(right_condition):
+def serving_coffee(right_condition, coffee):
     """Perform the service of the coffee if there are enough resources"""
 
     if right_condition:
@@ -35,8 +35,9 @@ def serving_coffee(right_condition):
         # Compute the user fund
         user_fund = fund_calculator(quarters_numb, dime_numb, nickles_numb, pennies_numb)
         print(f"You own ${user_fund}")
-        # TODO 4 - Check transaction successful
-
+        #Check transaction successful
+        ingredients = MENU[coffee]["ingredients"]
+        cost_of_coffee = MENU[coffee]["cost"]
         # decrease the volume of the ingredient into the machine
         for key in ingredients:
             resources[key] = resources.get(key) - ingredients.get(key)

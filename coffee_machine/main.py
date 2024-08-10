@@ -42,8 +42,23 @@ def report():
     print(f"These are the available resources : ")
     for ingredient, value in resources.items():
         print(f"{ingredient} : {value}")
+        
+        
+def fund_calculator(q, d, n, p):
+    """Convert the coins in dollar and return the sum"""
+    # quarters = $0.25, dimes = $0.10, nickles = $0.05, pennies = $0.01
+    coins = {"quarters": 0.25, "dime": 0.10, "nickles": 0.05, "pennies": 0.01}
+    quarter_in_dollar = operators.mlt(coins["quarters"], q)
+    dime_in_dollar = operators.mlt(coins["dime"], d)
+    nickels_in_dollar = operators.mlt(coins["nickles"], n)
+    pennies_in_dollar = operators.mlt(coins["pennies"], p)
+    fund = operators.add(operators.add(operators.add(pennies_in_dollar, nickels_in_dollar), dime_in_dollar),
+                                     quarter_in_dollar)
+    return fund
 
- 
+
+
+
 while start:
     choice_of_user = input("What would you like? (espresso/latte/cappuccino): "
                            "\nType 'report' to see the resources\nType 'Off' to switch the machine off").lower()
@@ -68,21 +83,9 @@ while start:
                 else:
                     in_service = True
 
+
+
             #Process coins
-
-            def fund_calculator(q, d, n, p):
-                """Convert the coins in dollar and return the sum"""
-                # quarters = $0.25, dimes = $0.10, nickles = $0.05, pennies = $0.01
-                coins = {"quarters": 0.25, "dime": 0.10, "nickles": 0.05, "pennies": 0.01}
-                quarter_in_dollar = operators.mlt(coins["quarters"], q)
-                dime_in_dollar = operators.mlt(coins["dime"], d)
-                nickels_in_dollar = operators.mlt(coins["nickles"], n)
-                pennies_in_dollar = operators.mlt(coins["pennies"], p)
-                fund = operators.add(operators.add(operators.add(pennies_in_dollar, nickels_in_dollar), dime_in_dollar),
-                                     quarter_in_dollar)
-                return fund
-
-
             def serving_coffee(right_condition):
                 """Perform the service of the coffee if there are enough resources"""
 

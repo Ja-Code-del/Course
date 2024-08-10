@@ -118,7 +118,9 @@ while start:
 
 
             serving_coffee(in_service)
-
+            #ask if the user wants another coffee if not set start to False, 
+            #or does he want tonsee the report? call function report and ask il he wants a coffee, 
+            #think of a while loop
         #if the choice of coffee is not available
         else:
             print("Sorry we don't have this coffee")

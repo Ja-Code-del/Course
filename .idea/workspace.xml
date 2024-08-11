@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59ad077a-03d1-4758-b97f-d6a3a43a3bc7" name="Changes" comment="added new modules data.py to handle dats and utils to handle functions">
-      <change afterPath="$PROJECT_DIR$/coffee_machine/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/black_jack_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_jack_game/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coffee_machine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffee_machine/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coffee_machine/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/coffee_machine/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prime number checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/prime number checker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,38 +53,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in conversion.py.executor": "Run",
-    "Python.Password Generator.executor": "Run",
-    "Python.RPS.executor": "Run",
-    "Python.bmi calculator.executor": "Run",
-    "Python.calculator.executor": "Run",
-    "Python.cipher.executor": "Run",
-    "Python.hangman.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.leap year.executor": "Run",
-    "Python.love calculator.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.prime number checker.executor": "Run",
-    "Python.shop manager.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.treaser hidder.executor": "Run",
-    "Python.treasure island game.executor": "Run",
-    "Python.utils.executor": "Run",
-    "Python.voyels count.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Jacquel Penah/PycharmProjects/Course/black_jack_game/main.py",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in conversion.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Password Generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RPS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bmi calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cipher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leap year.executor&quot;: &quot;Run&quot;,
+    &quot;Python.love calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prime number checker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shop manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.treaser hidder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.treasure island game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.voyels count.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jacquel Penah/PycharmProjects/Course/black_jack_game/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

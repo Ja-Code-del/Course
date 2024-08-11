@@ -5,8 +5,13 @@ profit = 0
 start = True
 
 while start:
-    choice_of_user = input("What would you like? (espresso/latte/cappuccino): "
-                           "\nType 'report' to see the resources\nType 'Off' to switch the machine off").lower()
+    choice_of_user = input("What would you like? (espresso/latte/cappuccino): \n"
+                           "****************************** FOR MAINTENANCE**********************************\n"
+                           "Type 'report' : to see the resources \n"
+                           
+                           "Type 'Off' : to switch the machine off \n"
+                           
+                           "Type 'profit' : to see the profit made\n ").lower()
     if choice_of_user == "report":
         report()
     elif choice_of_user == "off":
@@ -25,12 +30,9 @@ while start:
                     in_service = False
                 else:
                     in_service = True
-            #Process coins
+            #Process coins and serve the coffee
             serving_coffee(in_service, choice_of_user)
             profit += cost_of_coffee
-            #ask if the user wants another coffee if not set start to False, 
-            #or does he want to see the report? call function report and ask il he wants a coffee,
-            #think of a while loop
         #if the choice of coffee is not available
         else:
             print("Sorry we don't have this coffee")

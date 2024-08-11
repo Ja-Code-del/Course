@@ -6,7 +6,10 @@ start = True
 
 while start:
     choice_of_user = input("What would you like? (espresso/latte/cappuccino): "
-                           "\nType 'report' to see the resources\nType 'Off' to switch the machine off").lower()
+                           "\n******************FOR MAINTENANCE******************"
+                           "\nType 'report' ------ to see the resources"
+                           "\nType 'Off' ------ to switch the machine off"
+                           "\nType 'profit' ----- to see the profit\n").lower()
     if choice_of_user == "report":
         report()
     elif choice_of_user == "off":

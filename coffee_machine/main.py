@@ -28,9 +28,21 @@ while start:
             #Process coins
             serving_coffee(in_service, choice_of_user)
             profit += cost_of_coffee
-            #ask if the user wants another coffee if not set start to False, 
+            #ask if the user wants another coffee if not set start to False,
+            want_another_coffee = input("Do you want another coffee?\nType 'yes' or 'no' ")
+            if want_another_coffee == 'yes':
+                start = True
+                in_service = True
+            elif want_another_coffee == 'no':
+                start = False
+            elif want_another_coffee == 'report':
+                report()
+            elif want_another_coffee == 'off':
+                in_service = False
+                start = False
             #or does he want to see the report? call function report and ask il he wants a coffee,
             #think of a while loop
+
         #if the choice of coffee is not available
         else:
             print("Sorry we don't have this coffee")

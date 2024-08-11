@@ -38,19 +38,19 @@ def serving_coffee(right_condition, coffee):
         #Check transaction successful
         ingredients = MENU[coffee]["ingredients"]
         cost_of_coffee = MENU[coffee]["cost"]
-        # decrease the volume of the ingredient into the machine
-        for key in ingredients:
-            resources[key] = resources.get(key) - ingredients.get(key)
-        print(f"These are the available resources : ")
-        for new_key, new_value in resources.items():
-            print(f"{new_key} : {new_value}")
-
         # if the user fund is greater than his coffee price so variable user_change is positive
         # the coffee is made and the change is calculated and given
         user_change = operators.sub(user_fund, cost_of_coffee)
         if user_change >= 0:
             print("Hold your coffee")
             print(f"And here is your change : ${user_change}")
+
+            # decrease the volume of the ingredient into the machine
+            for key in ingredients:
+                resources[key] = resources.get(key) - ingredients.get(key)
+            print(f"These are the available resources : ")
+            for new_key, new_value in resources.items():
+                print(f"{new_key} : {new_value}")
         else:
             print("You don't have enough fund to buy this coffee")
     else:

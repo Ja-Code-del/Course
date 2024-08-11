@@ -1,5 +1,6 @@
 from utils import *
 
+#add a logo
 in_service = True
 profit = 0
 start = True
